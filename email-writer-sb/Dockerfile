@@ -19,4 +19,4 @@ COPY src src
 RUN ./mvnw clean package -DskipTests
 
 # Run the JAR (note: use Render's PORT env variable)
-CMD ["java", "-jar", "target/*.jar"]
+CMD ["java", "-jar", "app.jar"]
